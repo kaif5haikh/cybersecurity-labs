@@ -87,7 +87,7 @@ Now we can find flag.txt file
 
 
 After going into that directory we able to find that flag.
-![Flag Discovery](screenshots/12-get-flag.png)
+
 
 
 This lab is very useful that teaches my how to enumerate services and find a way to exploit them.

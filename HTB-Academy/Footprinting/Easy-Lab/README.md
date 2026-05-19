@@ -38,7 +38,7 @@ Nmap done: 1 IP address (1 host up) scanned in 148.18 seconds
 ```
 - Here Three TCP ports are open.
 Then now i am trying to access ftp port of 21 using found creds, 
-![[Pasted image 20260517144702.png]]
+![FTP Login](screenshots/01-ftp-login.png)
 
 
 Here We are able to access ftp server, But one problem is there is not file or directory are there here.

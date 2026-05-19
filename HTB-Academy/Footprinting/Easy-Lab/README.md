@@ -63,7 +63,7 @@ Now earlier while doing nmap scan we found 3 ports, the third port are also ftp 
 Hurray!!!, We logged in using ftp port 2121 with those creds.
 
 Now lets check is there any file or directories are there or not.
-![Enumerating Directory](screenshots/06-enumerating-directory.png)
+![Enumerating Directory](screenshots/06-enumrating-directory.png)
 
 Yes there are some hidden directories or files present.
 

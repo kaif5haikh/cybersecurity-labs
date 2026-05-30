@@ -87,11 +87,11 @@ Accept-Ranges: bytes
 
 - Here we also didn't find anything, lets try to enumerate `inlanefreight.htb` its directory using `gobuster`
 - **Command:**
-- ```Bash
+```Bash
   gobuster dir -u http://inlanefreight.htb:30692 -w ~/Wordlist/subDomains/subdomains-top1million-110000.txt -t 100
   ```
 - **Output:**
-- ```Bash
+```Bash
   ===============================================================
 Gobuster v3.8.2
 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
@@ -110,8 +110,7 @@ Progress: 110000 / 110000 (100.00%)
 ===============================================================
 Finished
 ===============================================================
-
-  ```
+```
 - Here we also didn't able to find anything.
 
 
@@ -121,7 +120,7 @@ Now lets try `vhost` discovery using gobuster
 gobuster vhost -u http://inlanefreight.htb:30692 -w ~/Wordlist/subDomains/subdomains-top1million-110000.txt -t 100 --append-domain
 ```
 - Lets analyze `vhost` of this `inlanefreight.htb` using gobuster:
-- ```Bash
+```Bash
 ===============================================================
 Gobuster v3.8.2
 by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
